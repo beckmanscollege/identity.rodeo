@@ -12,10 +12,15 @@
             font-size: 3.9vw;
             color:black;
          }
+
+         .lh {
+            line-height: 0.9;
+
+         }
         
         .knapp {
             position: absolute;
-            padding: 10px 5px 10px 5px;
+            padding: 10px 25px 15px 30px;
             bottom: 4vw;
             right: 10vw;
             border: black 3px solid;
@@ -61,6 +66,7 @@
 
         @keyframes reveal {
     0%{opacity: 0;}
+    99%{opacity: 0;}
     100%{opacity: 1;}
   }
 
@@ -112,9 +118,7 @@
             font-size: 2vh;
             text-align: left;
             writing-mode: vertical-rl;
-
-            /* transform: rotate(90deg); */
-            animation: reveal 1s 2s, float 5s cubic-bezier(0.165, 0.84, 0.44, 1)infinite, blink 10s linear infinite;
+            animation: slide-in-right 10s linear, float 5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
 
   }
 
