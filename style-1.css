@@ -44,8 +44,8 @@ html.idle #overlay {
 
 body {
     margin: 1rem auto;
-    margin-top: 2rem;
-    top: 10vh;
+    /* margin-top: 2rem; */
+    top: 8vh;
     position:relative;
     left:
     /* max-width: 80vw; */
